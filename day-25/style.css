@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+ .card{
+  background: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+ }
+ .status{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding:10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.781);
+ }
+  .status img{
+      height: 50px;
+      width: 50px;object-fit: cover;
+      border-radius: 50%;
+  }
+  .full{
+    height: 100%;
+    width: 100%;
+    background: url(https://scontent.fpat12-1.fna.fbcdn.net/v/t39.30808-6/421291138_916965133146623_691498133727534666_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=jK6a3ZV7Vg8Q7kNvwEciPTL&_nc_oc=AdlgNRalPBBvsSY6P_so-48vFgLvE0QFZsQ253RjK_tBjxLBFFjrr3A7MCOMNjawb7cnD5NSsC2Eju-IPmFC1SP9&_nc_zt=23&_nc_ht=scontent.fpat12-1.fna&_nc_gid=8Cs_JxaWZeOcffKO-OIvoA&oh=00_Afss16d8XM5hlRjM6I6YsjHrMKZgXLGoTT4LBqlcIFSXng&oe=699FE5E4);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+
+  }
+
+  #progress{
+    height:8px ;
+    border-radius: 50px;
+    width: 100%;
+    background: #ffffff8e;
+  }
+
+  #growth{
+    height: 100%;
+    width: 0%;
+    background: green;
+      border-radius: 50px;
+  }
+
+  #close{
+    font-weight: 900;
+    position: absolute;
+    font-size: 20px;
+    right: 7%;
+    top: 8%;
+  }
