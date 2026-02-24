@@ -1,0 +1,32 @@
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    cursor: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    background: #000;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background: crimson;
+}
+.cursor{
+    height: 35px;
+    width: 35px;
+    background: rgb(39, 210, 190);
+    border-radius: 50%;
+    position: absolute;
+   
+    transform:  translate(-50%,-50%);
+    transition:  all linear ;
+} 
