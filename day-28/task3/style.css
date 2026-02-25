@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  padding: 20px;
+  border: 2px solid black;
+  width: 150px;
+}
+
+.box p {
+  transition: 0.3s;
+}
+
+.active {
+  color: red;
+  transform: scale(1.2);
+}
