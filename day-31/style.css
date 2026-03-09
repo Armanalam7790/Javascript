@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  color: white;
+}
+body {
+  background: #000;
+  color: white;
+}
+img{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+main {
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    background: rgb(13, 12, 12);
+    padding: 0px 40px;
+    text-transform: capitalize;
+}
+nav .links{
+ display: flex;
+ gap: 40px;
+ font-size: 16px;
+ font-weight: 500;
+ 
+
+}
+nav .links p{
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    color: wheat;
+    font-size: 20px;
+}
+
+nav>h1{
+    font-size: 27px;
+}
+.product-cart{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+    background: rgb(129, 129, 129);
+    border-radius: 10px;
+    width: 340px;
+   
+   
+}
+
+section{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height:250px;
+   
+}
+.img>img{
+    height: 100%;
+     border-radius: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap:6px ;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.btns button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btns button:nth-child(2){
+    background: darkgreen;
+}
+
+.card-screen{
+    top: 9%;
+    height: 95%;
+    width: 100%;
+    background: darkgray;
+    padding: 50px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    position: absolute;
+    display: none;
+gap: 20px;
+}
+
+
+@media (max-width:600px) {
+    nav{
+        padding: 20px;
+        /* background: red; */
+    }
+nav .links{
+ gap: 20px;
+ 
+}
+
+}

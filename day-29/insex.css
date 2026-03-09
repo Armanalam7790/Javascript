@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+main{
+     height: 100%;
+  width: 100%;
+  /* display: flex; */
+  background: #000;
+  padding: 30px;
+}
+
+.car-card{
+    max-width: 100%;
+    /* height: 200px; */
+    background: white;
+    padding: 20px 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* gap: 3rem; */
+    justify-content: space-between;
+  /* gap: 40px; */
+  margin-bottom: 10px;
+  background: #000;
+  border: 2px solid white;
+}
+.car-card img{
+height: 200px;
+border-radius: 20px;
+}
+.car-card .div2 h2{
+font-size:45px;
+}
+.car-card .div2 h2 span{
+font-size: 25px;
+}
+.car-card .div2 .colors{
+    display: flex;
+    /* gap: 1rem; */
+    /* align-items: center; */
+}
+.car-card  .div1{
+  position: relative;
+}
+.car-card  .div1 h5{
+  color: white;
+  background: green;
+  position: absolute;
+  top: 10px;
+  
+  right: 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: 500;
+}
+.car-card .div2 .colors>div{
+  display: flex;
+  align-items: center;
+    height: 20px;
+    width: 20px;
+    background: red;
+    border-radius: 50%;
+    margin-right:-4px ;
+    border: 1px solid  black;
+}
+.car-card .div2 .colors p{
+    margin-left: 10px;
+}
+.car-card .div2 h3{
+   margin-bottom: 20px;
+}
+.car-card .div2 h3{
+   margin-bottom: 10px;
+}
+
+.car-card .div2 p{
+   margin-bottom: 20px;
+}
+
+.car-card .div2 .colors h6{
+ font-size: 1em;
+ font-weight: 600;
+ margin-right: 1rem;
+}
+
+.div3 .pros{
+  font-size: 25px;
+  color: green;
+  margin-bottom: 10px;
+
+}
+.pros-p p{
+  font-weight: 500;
+}
+.cons-p p{
+  font-weight: 500;
+}
+.pros-p, .cons-p{
+font-size: 13px;
+}
+
+.div3 .cons{
+  font-size: 25px;
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.pros-p p::before{
+  content: '- ';
+}
+.cons-p p::before{
+  content: '- ';
+}

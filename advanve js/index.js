@@ -40,21 +40,45 @@
 
 //Destructing on object
 
-let obj = {
-//   name: "RAHUL",
-  adderess: " patna",
-  email: "rahul@gmail.com",
-  copmony: "sheryies pvt ltd",
-  designation: "developer",
-  projects: {
-    name: "e-commerce",
-  },
+// let obj = {
+// //   name: "RAHUL",
+//   adderess: " patna",
+//   email: "rahul@gmail.com",
+//   copmony: "sheryies pvt ltd",
+//   designation: "developer",
+//   projects: {
+//     name: "e-commerce",
+//   },
+// };
+// let {
+//   adderess,
+//   email,
+//   copmony,
+//   designation,
+//   projects,
+// } = obj;
+// console.log(email, projects);
+
+let  obj = {
+  name: 'satoor',
+  catogery: 'shop',
+  colors:{
+    name: 'purple',
+    quantity: 10,
+  }
+
+
 };
-let {
-  adderess,
-  email,
-  copmony,
-  designation,
-  projects,
-} = obj;
-console.log(email, projects);
+
+let obj2 = JSON.parse(JSON.stringify(obj));
+
+
+
+
+
+obj2.name = 'lifeboy'
+obj2.colors.name = 'red'
+
+console.log(obj);
+console.log(obj2);
+
